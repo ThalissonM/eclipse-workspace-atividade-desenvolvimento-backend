@@ -1,0 +1,108 @@
+@charset "ISO-8859-1";
+/* CSS Document estilos para o curriculo */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+#container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#header {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+#header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+#header h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #666;
+}
+
+#content {
+    padding: 10px;
+}
+
+#content h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+#content h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+#content p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+#content ul {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+#content ul li {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+#content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+#content table th {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+#content table td {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+#footer {
+    background-color: #f0f0f0;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+#footer p {
+    margin: 0;
+    padding: 0;
+}
+#img_pessoais {
+    float: right; 
+    margin-left: 10px;
+}
+
+/* Path: src/main/webapp/_css/print.css */

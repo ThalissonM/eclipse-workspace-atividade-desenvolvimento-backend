@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml"
+ xmlns:h="http://java.sun.com/jsf/html">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Formulário</title>
+</head>
+<body>
+    <!-- formulário jsf com nome, sobrenome telefone e email -->
+    <h:form>
+        <h:outputLabel value="Nome:" />
+        <h:inputText value="#{formularioBean.nome}" />
+        <h:outputLabel value="Sobrenome:" />
+        <h:inputText value="#{formularioBean.sobrenome}" />
+        <h:outputLabel value="Telefone:" />
+        <h:inputText value="#{formularioBean.telefone}" />
+        <h:outputLabel value="Email:" />
+        <h:inputText value="#{formularioBean.email}" />
+        <h:commandButton value="Enviar" action="#{formularioBean.enviar}" />
+    </h:form>
+
+</body>
+</html>
